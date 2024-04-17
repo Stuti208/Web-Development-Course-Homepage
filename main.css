@@ -1,0 +1,187 @@
+/* background image */
+body,html{
+    background-image:url("scenery2.jpg") ;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header styling */
+.table h1 {
+    color:rgb(215, 74, 35);
+    font-size: 40px;
+    /* padding-bottom:40px; */
+    /* margin:0px; */
+}
+
+.table {
+    background-color: black;
+    margin:0px;
+    padding: 60px;
+    height:12px;
+    width:92.1%; 
+    display:flex;
+    gap:107px;  
+}
+
+.table a{
+    color:white;
+    text-decoration: none;
+    font-size:18px;
+}
+
+.table a:hover {
+    color:rgb(190, 66, 66);
+}
+
+.header_search {
+   text-align: right;
+   display:flex;
+   gap:0px;
+}
+
+.txt {
+    color:white;
+    border:1px solid rgb(244, 120, 86) ;
+    background-color: black;
+    border-right-style:none;
+    padding:12px;
+}
+
+.button {
+    color:white;
+    background-color:rgb(215, 74, 35);
+    border:1px solid rgb(244, 120, 86) ;
+    text-align: center;
+    padding:6px 15px;
+    height:27px;
+}
+
+
+/* main content styling */
+.class1 {
+    font-size: 50px;
+    color:white;
+    /* padding: 30px; */
+}
+
+.class2 {
+    color:rgb(215, 74, 35);
+    font-size:60px;
+}
+
+.class3 {
+    color:white;
+    font-family:Nunito;
+    font-size: 15px;
+    padding: 3px;
+    letter-spacing: 1px;
+}
+
+.join_button {
+    background-color:rgb(215, 74, 35) ;
+    padding:10px 40px;
+    border:none;
+    border-radius:5px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+div.main_content {
+    float:left;
+    background-color: none;
+    padding-left: 120px;
+    padding-top: 60px;
+}
+
+
+
+/* login form styling */
+
+.login {
+    padding:25px;
+    background-color: black;
+    float:right;
+    margin-top:90px;
+    margin-right:110px ;
+    font-size:22px;
+    height:310px;
+}
+
+.login_button {
+    color:rgb(215, 74, 35);
+    background-color: white;
+    padding:10px 70px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login input[type="submit"]:hover {
+    background-color: rgb(79, 79, 230);
+}
+
+input[type="text"],input[type="password"] {
+    color:white;
+    background-color: black;
+    padding-bottom: 8px;
+    border-top-style:none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-color: rgb(244, 120, 86);
+    width:90%;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+ input[type="password"]::-webkit-input-placeholder,
+ .txt::-webkit-input-placeholder{
+      color:white;
+      font-weight: bold;
+      font-family:sans-serif;
+}
+ 
+input[type="submit"] {
+    background-color:rgb(215, 74, 35) ;
+    padding:10px 90px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+}
+
+.login_class1 {
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:14px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.login_class1 a {
+    color:rgb(215, 74, 35) ;
+    text-decoration: none;
+}
+
+.login_class2 {
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:11px;
+    text-align: center;
+    padding: 11px;
+}
+
+.icons {
+    margin:0;
+    padding-left:14px;
+    text-align: center;
+    display:flex;
+    gap:20px;
+}
+
+
